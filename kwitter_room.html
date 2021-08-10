@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Let's Chat</title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com crossorigin">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sacramento&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="kwitter.css">
+    </head>
+    <body>
+        <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+        <center>
+            <h1 style="font-family: 'Indie Flower', cursive; font-size: 85px;">
+                Let's Chat
+                <sup>
+                    <img src="logo.gif" height="60" width="75">
+                </sup>
+                
+            </h1>        
+            <div id="rooms">        
+                <h3 class="color_white" id="user_name"></h3>
+                <div class="form-group input_div_room_page">
+                    <label>#Add Room:</label>
+                    <input type="text" id="room_name" class="form-control" placeholder="#RoomName">
+                </div>    
+                <button class="btn btn-success" onclick="add_room()">#Add Room</button>
+                <h3 class="color_white">#TrendingRooms</h3>
+                <div id="output"></div>          
+            </div>
+        </center>
+        <script src="kwitter_room.js"></script>
+    </body>
+</html>

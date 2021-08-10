@@ -3,8 +3,13 @@ body
 background-image: linear-gradient(to right top, #F6CEE3, #F6CEE3, #81F7F3, #81F7F3);
 }
 
-#login{
+#login,#rooms{
     background-color: lavenderblush;
     width: 50%;
     border-radius: 40px;
+    font-family: 'Sacramento', cursive;
+}
+
+#rooms{
+    font-size: 60px;
 }

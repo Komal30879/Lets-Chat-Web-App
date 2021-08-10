@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Let's Chat</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="kwitter.css">
+        <script src="kwitter.js"></script>
+    </head>
+    <body>
+        <center>
+            <img src="logo.gif" height="300" width="400" id="logo">
+            <br>
+            <br>
+            <div id="login" style="font-family: 'Sacramento', cursive;">
+                <h2 style="font-family: 'Indie Flower', cursive; font-size: 85px;">Let's Chat</h2>
+                <p style="font-size: 50px;">Log In</p>
+                <label>User Name:</label><br>
+                <input id="user_name" class="form-group" placeholder="User Name" style="width: 50%;"><br>
+                <button id="login_button" class="btn btn-primary" style="width: 30%;" onclick="addUser()">Log In</button><br>
+            </div>
+        </center>
+    </body>
+</html>

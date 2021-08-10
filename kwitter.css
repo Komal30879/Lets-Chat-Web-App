@@ -1,0 +1,10 @@
+body
+{
+background-image: linear-gradient(to right top, #F6CEE3, #F6CEE3, #81F7F3, #81F7F3);
+}
+
+#login{
+    background-color: lavenderblush;
+    width: 50%;
+    border-radius: 40px;
+}
